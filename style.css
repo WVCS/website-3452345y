@@ -1,3 +1,22 @@
-body {
+ h3 {
+  color: #000000;
+  text-decoration: overline underline 10px green dotted;
+  letter-spacing: -1px;
+  word-spacing: 10px;
+  text-shadow: 4px 4px 5px gold;
+}
 
+body {
+  background-color: PowderBlue;
+}   
+
+img:hover {
+  width: 300px;
+  border: dotted green 10px
+}
+
+h3:hover {
+  text-decoration: underline wavy green 10px;
+  font-size: 200%;
+  text-transform: uppercase;
 }
