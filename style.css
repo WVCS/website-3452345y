@@ -1,22 +1,23 @@
  h3 {
   color: #000000;
-  text-decoration: overline underline 10px green dotted;
+  text-decoration: overline underline 10px #663399 dotted;
   letter-spacing: -1px;
   word-spacing: 10px;
-  text-shadow: 4px 4px 5px gold;
+  text-shadow: 2px 2px 3px pink;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 
 body {
-  background-color: PowderBlue;
+  background-color: #DCDCDC;
 }   
 
 img:hover {
   width: 300px;
-  border: dotted green 10px
+  border: solid #663399 10px;
 }
 
 h3:hover {
-  text-decoration: underline wavy green 10px;
+  text-decoration: underline #663399 10px;
   font-size: 200%;
   text-transform: uppercase;
 }
@@ -31,18 +32,22 @@ nav {
 }
 
 li {
-  display: inline;
+  float: left;
+  
 }
 
 li a {
   text-decoration: none;
   color: white;
   display: block;
-  float: left;
-  padding: 15px 50px;
+  padding: 15px 30px;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 
 li a:hover {
-  background-color: purple;
-  color: green;
+  background-color: #111;
+}
+
+.active {
+  background-color: #663399;
 }
