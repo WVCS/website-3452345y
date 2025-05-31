@@ -12,13 +12,13 @@ body {
 }   
 
 img:hover {
-  width: 300px;
+  width: 800px;
   border: solid #663399 10px;
 }
 
 h3:hover {
   text-decoration: underline #663399 10px;
-  font-size: 200%;
+  font-size: 150%;
   text-transform: uppercase;
 }
 
